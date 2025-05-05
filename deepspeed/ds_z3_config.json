@@ -26,6 +26,12 @@
       "stage3_max_live_parameters": 1e9,
       "stage3_max_reuse_distance": 1e9,
       "stage3_gather_16bit_weights_on_model_save": true
+    },
+    "aio": {
+    "block_size": 1e7,
+    "queue_depth": 8,
+    "single_submit": false,
+    "overlap_events": true
     }
   }
   
